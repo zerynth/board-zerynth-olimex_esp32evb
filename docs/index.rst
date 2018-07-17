@@ -14,7 +14,7 @@ The Esp32 EVB device is one of the development board created by Olimex to evalua
 Pin Mapping
 ***********
 
-.. figure:: /custom/img/Olimex_ESP32_EVB_pin_comm.png
+.. figure:: /custom/img/Olimex_ESP32_EVB_pin_comm.jpg
    :align: center
    :figwidth: 100% 
    :alt: Olimex Esp32 EVB
@@ -45,7 +45,7 @@ Device Summary
 
 * Microcontroller: Tensilica 32-bit Single-/Dual-core CPU Xtensa LX6
 * Operating Voltage: 3.3V
-* Input Voltage: 7-12V
+* Input Voltage: 5V
 * Digital I/O Pins (DIO): 36
 * Analog Input Pins (ADC): 4
 * UARTs: 3
@@ -64,7 +64,7 @@ Power
 
 Power to the Olimex Esp32 EVB is supplied via the on-board USB Micro B connector or with an external power supply. The power source is selected automatically.
 
-External (non-USB) power can come either from an AC-to-DC adapter (wall-wart) or throught the connector for a 3.7/4.2 V Li-Po battery. The adapter can be connected by plugging a 2.1 mm center-positive plug into the device’s power jack. The recommended range for external power supply is 7 to 12 volts.
+External (non-USB) power can come either from an AC-to-DC adapter (wall-wart) or throught the connector for a 3.7/4.2 V Li-Po battery. The adapter can be connected by plugging a 2.1 mm center-positive plug into the device’s power jack. The recommended range for external power supply is 5 volts; if more than 5V are provided, the voltage regulator will overheat and damage the device.
 
 Connect, Register, Virtualize and Program
 *****************************************
